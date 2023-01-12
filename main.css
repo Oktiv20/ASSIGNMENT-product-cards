@@ -1,0 +1,54 @@
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: #d1d8ec;
+  -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 26px;
+  box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5),
+    inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6),
+    inset 0px 11px 28px 0px rgb(255, 255, 255);
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#red {
+  flex-basis: 33%;
+  border: 1px black;
+}
+
+#black {
+  flex-basis: 33%;
+  border: 1px black;
+}
+
+#blue {
+  flex-basis: 33%;
+  border: 1px black;
+}
+
+#orange {
+  flex-basis: 33%;
+  border: 1px black;
+}
+
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+  font-size: medium;
+  border: 1px solid lightblue;
+}
