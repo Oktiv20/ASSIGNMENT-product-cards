@@ -53,8 +53,21 @@ h2 {
   text-align: center;
 }
 
-h5 {
-  font-size: large;
+/* .card-text {
+ 
+} */
+
+.stock {
+  background-color: grey;
+  color: yellow;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: left;
+  justify-content: center;
+}
+
+.specs {
+  font-weight: bold;
 }
 
 footer {
