@@ -1,6 +1,11 @@
 .wrap {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-right: 7%;
+  column-gap: space-around;
 }
 
 .card {
@@ -23,6 +28,7 @@
   -webkit-backdrop-filter: blur(2.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 30px;
 }
 
 #red {
@@ -60,16 +66,45 @@ h2 {
 .stock {
   background-color: grey;
   color: yellow;
-  margin-left: 0%;
-  margin-right: 0%;
   text-align: left;
-  justify-content: center;
+  width: 100%;
+  border-radius: 0%;
 }
 
+/* .info {
+  line-height: 1.0;
+} */
+
 .specs {
+  font-size: large;
+  font-size: smaller;
   font-weight: bold;
+  margin-left: 3%;
+  line-height: 1.0;
+}
+
+.size {
+  font-size: medium;
+  font-weight: bolder;
+  margin-left: 3%;
+  line-height: 1.0
 }
 
 footer {
-  font-size: x-small;
+  font-size: small;
+}
+
+.cost {
+  font-size: large;
+  font-size: smaller;
+  font-weight: bold;
+  margin-left: 3%;
+  line-height: 1.0;
+}
+
+.price {
+  font-size: medium;
+  font-weight: bolder;
+  margin-left: 3%;
+  line-height: 1.0
 }
